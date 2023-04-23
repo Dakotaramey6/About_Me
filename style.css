@@ -1,0 +1,110 @@
+html {
+    background-color: lightyellow;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    background-color: peru;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+header button {
+    height: 25px;
+    margin-top: 60px;
+}
+
+header ul {
+    word-spacing: 30px;
+    margin-top: 28px;
+}
+header ul li{
+    flex-direction: row;
+    display: inline-flex;
+    font-size: 28px;
+}
+
+header a {
+    text-decoration: none;
+    color:black;
+}
+
+header a:hover {
+    font-size: 35px;
+}
+
+#top-container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    justify-content: space-between;
+}
+
+#picture {
+    position: relative;
+    left: 180px;
+    text-align: center;
+}
+
+#top-container button {
+    margin-top: 10px;
+    
+}
+
+#bio {
+    background-color: lightskyblue;
+    width: 45%;
+    border: 1px solid black;
+    
+}
+
+#bio p {
+    font-size: 20px;
+}
+
+#bio h2 {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+#row-two {
+    background-color: peru;
+    width: 45%;
+    margin-bottom: 45px;
+    border: 1px solid black;
+}
+
+#row-two h2 {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+#row-two ul li{
+    font-size: 20px;
+}
+
+#row-three {
+    background-color: lightskyblue;
+    width: 45%;
+    border: 1px solid black;
+
+}
+
+#row-three h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.banner {
+    background-color: peru;
+    color: peru;
+    width: 100%;
+}
+
